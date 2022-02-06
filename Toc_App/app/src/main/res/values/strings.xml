@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Toc_App</string>
+    <string name="hello">Hello</string>
+    <string name="student">Student</string>
+    <string name="search_element">search_element</string>
+    <string name="goals">goals</string>
+    <string name="meeting">Meeting</string>
+    <string name="have_a_meeting">Have a meeting</string>
+    <string name="submit_assignment">Submit Assignment</string>
+    <string name="schedule_meeting">Schedule Meeting</string>
+    <string name="exit">Exit</string>
+    <string name="welcome">WELCOME</string>
+    <string name="select_a_lecturer">Select a Lecturer</string>
+    <string name="mr_white">Mr White</string>
+    <string name="next">NEXT</string>
+    <string name="back">Back</string>
+    <string name="ms_muir">Ms Muir</string>
+    <string name="mr_panther">Mr Panther</string>
+    <string name="ms_facey_shaw">Ms Facey-Shaw</string>
+    <string name="mr_mcgowan">Mr McGowan</string>
+    <string name="mrs_facey_shaw">Mrs Facey-Shaw</string>
+</resources>

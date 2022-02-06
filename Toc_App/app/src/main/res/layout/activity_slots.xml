@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Slots_Activity">
+
+    <LinearLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bot_back_color"
+        android:padding="10dp"
+        app:layout_constraintBaseline_toTopOf="parent">
+        <TextView
+            android:id="@+id/SelectTutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Select Date and Time"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tv_name"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Orange"
+            android:drawableTop="@drawable/ic_reate"
+            android:hint="Enter Name and Id#"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Orange"
+            android:drawableTop="@drawable/ic_date"
+            android:text="Select Date"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Orange"
+            android:drawableTop="@drawable/ic_baseline_access_time_24"
+            android:textAlignment="center"
+            android:text="Select Time"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/timer2"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CONFIRM"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+</LinearLayout>
